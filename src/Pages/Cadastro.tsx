@@ -1,5 +1,9 @@
+import { Deslogado } from "../Components/Layout/Deslogado";
+
 export function Cadastro() {
   return(
-    <h1>Cadastro</h1>
+    <Deslogado title="CADASTRO">
+      
+    </Deslogado>
   )
 }

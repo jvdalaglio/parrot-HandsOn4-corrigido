@@ -1,5 +1,9 @@
+import { Deslogado } from "../Components/Layout/Deslogado";
+
 export function Login() {
   return(
-    <h1>Login</h1>
+    <Deslogado title="Login">
+      
+    </Deslogado>
   )
 }

@@ -38,9 +38,9 @@ export const Card = styled.div`
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
+    margin-bottom:14px;
 
 
     color: #000000;
   }
-
 `

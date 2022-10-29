@@ -33,8 +33,6 @@ export const Card = styled.div`
   }
 
   h1{
-    width: 71px;
-    height: 25px;
 
     font-family: 'Questrial';
     font-style: normal;

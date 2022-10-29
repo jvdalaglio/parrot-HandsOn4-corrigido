@@ -14,7 +14,7 @@ export const DeslogadoStyle = styled.div`
 
 export const Card = styled.div`
   width: 370px;
-  height: 620px;
+  max-height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +30,7 @@ export const Card = styled.div`
 
   @media only screen and (min-width: 600px) {
     width: 487px;
-    height: 642px;
+    max-height: 841px;
   }
 
   h1{

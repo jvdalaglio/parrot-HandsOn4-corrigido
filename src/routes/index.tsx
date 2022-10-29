@@ -1,20 +1,24 @@
 import { createBrowserRouter } from "react-router-dom";
+import { Cadastro } from "../Pages/Cadastro";
+import { Feed } from "../Pages/Feed"
+import { Login } from "../Pages/Login"
+import { User } from "../Pages/User"
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Login</div>,
+    element: <Login />,
   },
   {
     path: "/cadastro",
-    element: <div>Cadastro</div>,
+    element: <Cadastro />,
   },
   {
     path: "/user",
-    element: <div>Usuário</div>,
+    element: <User />,
   },
   {
     path: "/feed",
-    element: <div>Feed</div>,
+    element: <Feed />,
   },
 ]);

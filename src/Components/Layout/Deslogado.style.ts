@@ -5,6 +5,7 @@ export const DeslogadoStyle = styled.div`
   width: 100%;
   height: 100vh;
   background-image:url(/public/BACKGROUND.svg);
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -4,11 +4,13 @@ import { Feed } from "../Pages/Feed"
 import { Login } from "../Pages/Login"
 import { User } from "../Pages/User"
 import { NavBar } from "../Components/NavBar/NavBar";
+import { Logado } from "../Components/Layout/Logado";
+
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <NavBar />,
+    element: <Logado />,
   },
   {
     path: "/cadastro",

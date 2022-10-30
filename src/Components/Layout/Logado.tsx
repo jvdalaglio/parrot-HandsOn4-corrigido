@@ -21,7 +21,7 @@ export function Logado () {
           <p></p>
         </div>
         <div className="col-10 offset-1 col-lg-3 col-xxl-2 offset-lg-1">
-        <Button type="button" className={"userbutton"}>editar perfil</Button>
+        <Button className="userbutton" type="button">editar perfil</Button>
         </div>
         </section>
       </UserBox>

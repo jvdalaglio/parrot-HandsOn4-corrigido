@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ButtonStyle = styled.button `
+  
   width: 335px;
   height: 39px;
   margin-top: 26px;
@@ -14,22 +15,24 @@ export const ButtonStyle = styled.button `
   font-weight: 400;
   font-size: 24px;
   line-height: 25px;
+  
 
 
-  &.userbutton {
+  &.userbutton{
     width: 133px;
     height: 28px;
 
     background: #76BB4C;
     border-radius: 30px;
-    color: white;
+    color: #FFFFFF;
     margin-right: 50px;
     margin-top: 0;
     margin-left: 80px;
 
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 25px;
   }
-`
+    `
+    

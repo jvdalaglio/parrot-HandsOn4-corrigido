@@ -1,9 +1,9 @@
 import { ButtonHTMLAttributes } from "react"
-import { ButtonStyle } from "./Button.style"
+import { ButtonStyle} from "./Button.style"
 
 
-export function Button({type, className, ...rest}: ButtonHTMLAttributes<HTMLButtonElement>) {
+export function Button({className, ...rest}: ButtonHTMLAttributes<HTMLButtonElement>) {
   return (
-    <ButtonStyle className={className} />
+    <ButtonStyle className={className} {...rest}/>
   )
 }

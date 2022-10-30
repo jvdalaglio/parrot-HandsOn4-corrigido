@@ -1,10 +1,12 @@
 import styled from "styled-components";
 import {Link} from "react-router-dom"
+import { ReactNode } from "react";
 
 type CustomLinkProps = {
-  fontSize: number;
-  color:string;
-  marginTop: number;
+  fontSize?: number;
+  color?:string;
+  marginTop?: number;
+  children?: ReactNode;
 }
 
 export const CustomLink = styled(Link)<CustomLinkProps>`
